@@ -25,65 +25,28 @@ Contributions welcome! Open a PR to add or update entries. Keep descriptions fac
 
 ## SaaS/Hosted Platforms
 
-* **[Intelerad](https://www.intelerad.com/)**
-  Enterprise medical imaging platform offering PACS, workflow, diagnostic imaging, image sharing, cloud deployment, and radiology-focused operational capabilities.
-
-* **[Visage Imaging](https://www.visageimaging.com/)**
-  Enterprise imaging platform focused on high-performance visualization, diagnostic interpretation, server-side rendering, advanced imaging workflows, and large-scale healthcare deployments.
-
-* **[Philips IntelliSpace PACS](https://www.usa.philips.com/healthcare/solutions/enterprise-imaging)**
-  Enterprise imaging and PACS ecosystem designed for image management, clinical visualization, workflow integration, radiology operations, and cross-department medical imaging.
-
-* **[Merge PACS](https://www.ibm.com/products/merge-pacs)**
-  Enterprise imaging platform supporting DICOM image storage, radiology workflows, clinical image viewing, interoperability, and healthcare imaging operations.
-
-* **[RamSoft](https://www.ramsoft.com/)**
-  Cloud-based radiology and imaging software provider offering PACS, RIS, workflow management, scheduling, reporting, and imaging-center operations.
-
-* **[NovaRad](https://www.novarad.net/)**
-  Medical imaging software provider offering PACS, enterprise imaging, visualization, image sharing, radiology workflow, and clinical interoperability solutions.
-
-* **[FUJIFILM Synapse PACS](https://www.fujifilm.com/)**
-  Enterprise medical imaging platform supporting web-based image management, visualization, archiving, workflow efficiency, and integration with healthcare systems.
-
-* **[Carestream Vue PACS](https://www.carestream.com/)**
-  Enterprise imaging and PACS platform supporting radiology image management, clinical visualization, workflow integration, and healthcare interoperability.
-
-* **[Agfa Enterprise Imaging](https://www.agfahealthcare.com/)**
-  Enterprise imaging platform providing PACS, image archiving, clinical workflows, visualization, and enterprise-wide medical imaging management.
-
-* **[INFINITT PACS](https://www.infinitt.com/)**
-  Medical imaging and PACS platform supporting DICOM image management, radiology workflow, visualization, enterprise imaging, and clinical interoperability.
-
-* **[Sectra PACS](https://sectra.com/medical/)**
-  Enterprise imaging platform supporting radiology, breast imaging, pathology, orthopedics, cardiology, and integrated diagnostic workflows.
-
-* **[GE HealthCare Centricity / Enterprise Imaging](https://www.gehealthcare.com/)**
-  Enterprise imaging ecosystem supporting image management, visualization, interoperability, and clinical imaging workflows.
-
-* **[Siemens Healthineers Syngo Carbon](https://www.siemens-healthineers.com/)**
-  Enterprise imaging and workflow platform integrating diagnostic imaging applications, visualization, AI tools, and clinical data.
-
-* **[Change Healthcare Enterprise Imaging](https://www.optum.com/)**
-  Enterprise medical imaging platform supporting image management, workflow integration, visualization, and healthcare interoperability.
-
-* **[Aidoc](https://www.aidoc.com/)**
-  AI-driven clinical imaging platform integrating imaging workflows and AI-assisted triage with PACS and enterprise imaging systems.
-
-* **[Ambra Health](https://ambrahealth.com/)**
-  Cloud medical-image management and exchange platform supporting image sharing, DICOM workflows, patient imaging access, and enterprise interoperability.
-
-* **[PostDICOM](https://www.postdicom.com/)**
-  Cloud-based PACS and DICOM viewing platform providing image storage, sharing, web viewing, and remote access capabilities.
-
-* **[PaxeraHealth](https://www.paxerahealth.com/)**
-  Enterprise imaging platform offering PACS, VNA, AI-enabled workflows, image visualization, and healthcare interoperability.
-
-* **[MedDream](https://meddream.com/)**
-  Medical imaging visualization platform providing web-based DICOM viewing and integration capabilities for PACS, EHR, and clinical applications.
-
-* **[Aycan](https://www.aycan.com/)**
-  Medical imaging software provider offering PACS, image viewing, cloud imaging, workflow, and diagnostic solutions.
+| Platform | Description | Starting Pricing Tier | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Intelerad](https://www.intelerad.com/)** | Enterprise medical imaging platform offering PACS, workflow, diagnostic imaging, image sharing, cloud deployment, and radiology-focused operational capabilities. | Starts at ~$500/month (base cloud tiers) or ~$25,000–$50,000/year for enterprise departmental deployments | No free tier; No self-service free trial (offers personalized live product demos & clinical workflow consultations upon request) |
+| **[Visage Imaging](https://www.visageimaging.com/)** | Enterprise imaging platform focused on high-performance visualization, diagnostic interpretation, server-side rendering, advanced imaging workflows, and large-scale healthcare deployments. | Starts at ~$2.00–$3.50/study (or ~$50,000+/year base tier on AWS Marketplace / enterprise licensing) | No free tier; No public free trial (pilot and proof-of-concept sandbox environments available for qualified enterprise health systems) |
+| **[Philips IntelliSpace PACS](https://www.usa.philips.com/healthcare/solutions/enterprise-imaging)** | Enterprise imaging and PACS ecosystem designed for image management, clinical visualization, workflow integration, radiology operations, and cross-department medical imaging. | Starts at ~$200–$500/user/month (or enterprise agreements starting from ~$30,000+/year) | No free tier; No free trial (guided enterprise clinical walkthrough and demonstration available by sales request) |
+| **[Merge PACS](https://www.ibm.com/products/merge-pacs)** | Enterprise imaging platform supporting DICOM image storage, radiology workflows, clinical image viewing, interoperability, and healthcare imaging operations. | Starts at ~$250–$500/user/month (or ~$25,000+/year base contract for small-to-mid imaging centers) | No free tier; No free trial (interactive live product demonstration available upon request) |
+| **[RamSoft](https://www.ramsoft.com/)** | Cloud-based radiology and imaging software provider offering PACS, RIS, workflow management, scheduling, reporting, and imaging-center operations. | Starts at ~$1.75/study (or ~$500/month minimum base subscription for PowerServer / OmegaAI) | No free tier; No public free trial (offers 30-minute personalized live interactive demos upon request) |
+| **[NovaRad](https://www.novarad.net/)** | Medical imaging software provider offering PACS, enterprise imaging, visualization, image sharing, radiology workflow, and clinical interoperability solutions. | Starts at ~$1.50–$2.50/study (or ~$15,000/year base deployment tier for small imaging centers) | No free tier; No self-service free trial (custom live product demo & ROI consultation available upon request) |
+| **[FUJIFILM Synapse PACS](https://www.fujifilm.com/)** | Enterprise medical imaging platform supporting web-based image management, visualization, archiving, workflow efficiency, and integration with healthcare systems. | Starts at ~$2.00–$4.00/study (or subscription contracts starting from ~$35,000+/year) | No free tier; No free trial (custom vendor demonstration and site workflow evaluation upon request) |
+| **[Carestream Vue PACS](https://www.carestream.com/)** | Enterprise imaging and PACS platform supporting radiology image management, clinical visualization, workflow integration, and healthcare interoperability. | Starts at ~$1.50–$3.00/study (or base service tiers starting from ~$20,000/year) | No free tier; No free trial (scheduled live system demonstration upon request) |
+| **[Agfa Enterprise Imaging](https://www.agfahealthcare.com/)** | Enterprise imaging platform providing PACS, image archiving, clinical workflows, visualization, and enterprise-wide medical imaging management. | Starts at ~$300–$600/user/month (or enterprise contracts from ~$40,000+/year) | No free tier; No free trial (guided enterprise clinical walkthrough and trial sandbox upon request) |
+| **[INFINITT PACS](https://www.infinitt.com/)** | Medical imaging and PACS platform supporting DICOM image management, radiology workflow, visualization, enterprise imaging, and clinical interoperability. | Starts at ~$200–$450/user/month (or modular packages starting from ~$15,000/year) | No free tier; No free trial (tailored product demonstration and workflow assessment upon request) |
+| **[Sectra PACS](https://sectra.com/medical/)** | Enterprise imaging platform supporting radiology, breast imaging, pathology, orthopedics, cardiology, and integrated diagnostic workflows. | Starts at ~$2.00–$3.50/study (or Sectra One SaaS subscriptions from ~$40,000+/year) | No free tier; No public free trial (enterprise clinical evaluation and guided product demo upon request) |
+| **[GE HealthCare Centricity / Enterprise Imaging](https://www.gehealthcare.com/)** | Enterprise imaging ecosystem supporting image management, visualization, interoperability, and clinical imaging workflows. | Starts at ~$300–$600/user/month (or enterprise deployments starting from ~$50,000+/year) | No free tier; No free trial (guided solution demonstration and clinical architecture consultation upon request) |
+| **[Siemens Healthineers Syngo Carbon](https://www.siemens-healthineers.com/)** | Enterprise imaging and workflow platform integrating diagnostic imaging applications, visualization, AI tools, and clinical data. | Starts at ~$350–$700/user/month (or institutional subscriptions starting from ~$50,000+/year) | No free tier; No free trial (guided system demo and clinical trial sandbox upon request) |
+| **[Change Healthcare Enterprise Imaging](https://www.optum.com/)** | Enterprise medical imaging platform supporting image management, workflow integration, visualization, and healthcare interoperability. | Starts at ~$250–$500/user/month (or enterprise agreements starting from ~$30,000+/year) | No free tier; No free trial (solution demonstration and infrastructure assessment upon request) |
+| **[Aidoc](https://www.aidoc.com/)** | AI-driven clinical imaging platform integrating imaging workflows and AI-assisted triage with PACS and enterprise imaging systems. | Starts at ~$50,000/site/year (or ~$6.00/scan/algorithm via AWS Marketplace) | No free tier; No self-service free trial (AI clinical demonstration and feasibility consultation upon request) |
+| **[Ambra Health](https://ambrahealth.com/)** | Cloud medical-image management and exchange platform supporting image sharing, DICOM workflows, patient imaging access, and enterprise interoperability. | Starts at ~$500/month (or ~$1.50–$2.50/study for cloud image exchange workflows) | No free tier; No free trial (live cloud workflow demo and technical consultation upon request) |
+| **[PostDICOM](https://www.postdicom.com/)** | Cloud-based PACS and DICOM viewing platform providing image storage, sharing, web viewing, and remote access capabilities. | Starts at $79.99/month (Essential tier with 100 GB storage) | 7-day free trial (full feature access for any selected plan, credit card required for verification, auto-renews unless cancelled) |
+| **[PaxeraHealth](https://www.paxerahealth.com/)** | Enterprise imaging platform offering PACS, VNA, AI-enabled workflows, image visualization, and healthcare interoperability. | Starts at ~$250–$450/user/month (or modular cloud tiers starting from ~$12,000/year) | No free tier; No public free trial (personalized live product demo and AI proof-of-concept upon request) |
+| **[MedDream](https://meddream.com/)** | Medical imaging visualization platform providing web-based DICOM viewing and integration capabilities for PACS, EHR, and clinical applications. | Starts at ~$500–$1,500/license (or ~$100–$200/month for web viewer integration tiers) | 45-day free trial demo license (full diagnostic features for testing & evaluation) + free live online web demo |
+| **[Aycan](https://www.aycan.com/)** | Medical imaging software provider offering PACS, image viewing, cloud imaging, workflow, and diagnostic solutions. | Starts at ~$150–$350/month (or base workstation licenses starting from ~$2,500 one-time / subscription) | No free tier; No self-service free trial (custom live demo and evaluation test setup upon request) |
 
 ## Open-Source GitHub Projects
 
