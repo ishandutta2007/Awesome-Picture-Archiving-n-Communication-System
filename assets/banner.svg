@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0b162c"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="cyanBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38ef7d"/>
+      <stop offset="100%" stop-color="#11998e"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title-text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 800; fill: #ffffff; letter-spacing: 2px; }
+      .sub-text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 400; fill: #94a3b8; font-size: 18px; letter-spacing: 1px; }
+      .tag-text { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-weight: 600; font-size: 13px; fill: #38ef7d; }
+      .grid-line { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 4, 4; }
+      
+      @keyframes pulseRing {
+        0% { r: 40px; opacity: 0.8; }
+        50% { r: 70px; opacity: 0.2; }
+        100% { r: 40px; opacity: 0.8; }
+      }
+
+      @keyframes scanMotion {
+        0% { transform: translateY(0px); opacity: 0.2; }
+        50% { opacity: 0.9; }
+        100% { transform: translateY(380px); opacity: 0.2; }
+      }
+
+      @keyframes waveFloat {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(-30px); }
+        100% { transform: translateX(0); }
+      }
+
+      @keyframes glowFade {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 0.9; transform: scale(1.08); }
+      }
+
+      .scanner-beam { animation: scanMotion 4s ease-in-out infinite alternate; }
+      .pulsing-circle { animation: pulseRing 3s ease-in-out infinite; transform-origin: 1040px 200px; }
+      .wave-path { animation: waveFloat 6s ease-in-out infinite; }
+      .glowing-orb { animation: glowFade 4s ease-in-out infinite; transform-origin: 1040px 200px; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Technical Grid Overlay -->
+  <g opacity="0.35">
+    <line x1="50" y1="50" x2="1150" y2="50" class="grid-line" />
+    <line x1="50" y1="120" x2="1150" y2="120" class="grid-line" />
+    <line x1="50" y1="200" x2="1150" y2="200" class="grid-line" />
+    <line x1="50" y1="280" x2="1150" y2="280" class="grid-line" />
+    <line x1="50" y1="350" x2="1150" y2="350" class="grid-line" />
+    <line x1="120" y1="50" x2="120" y2="350" class="grid-line" />
+    <line x1="300" y1="50" x2="300" y2="350" class="grid-line" />
+    <line x1="600" y1="50" x2="600" y2="350" class="grid-line" />
+    <line x1="900" y1="50" x2="900" y2="350" class="grid-line" />
+    <line x1="1080" y1="50" x2="1080" y2="350" class="grid-line" />
+  </g>
+
+  <!-- Glowing Scanner Horizon (Dynamic) -->
+  <g class="scanner-beam">
+    <rect x="0" y="10" width="1200" height="3" fill="url(#scanGrad)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Left Content Branding -->
+  <g transform="translate(80, 80)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="270" height="34" rx="17" fill="#0f172a" stroke="#00f2fe" stroke-width="1.2" opacity="0.9"/>
+    <circle cx="16" cy="17" r="5" fill="#38ef7d" filter="url(#glow)"/>
+    <text x="32" y="22" class="tag-text">DICOM / PACS / VNA / AI</text>
+
+    <!-- Main Title -->
+    <text x="0" y="88" class="title-text" font-size="44" fill="#ffffff">AWESOME PACS</text>
+    <text x="400" y="88" class="title-text" font-size="44" fill="url(#cyanBlue)">ECOSYSTEM</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="130" class="sub-text">Picture Archiving &amp; Communication Systems, VNA &amp; Medical Imaging</text>
+    <text x="0" y="160" class="sub-text" fill="#64748b" font-size="15">SaaS Platforms • Open-Source DICOM Archives • AI Triage • Zero-Footprint Viewers</text>
+
+    <!-- Modality Badges -->
+    <g transform="translate(0, 195)">
+      <rect x="0" y="0" width="60" height="26" rx="6" fill="#1e293b"/>
+      <text x="14" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8">CT</text>
+
+      <rect x="70" y="0" width="60" height="26" rx="6" fill="#1e293b"/>
+      <text x="81" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8">MRI</text>
+
+      <rect x="140" y="0" width="60" height="26" rx="6" fill="#1e293b"/>
+      <text x="148" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8">X-RAY</text>
+
+      <rect x="210" y="0" width="70" height="26" rx="6" fill="#1e293b"/>
+      <text x="219" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8">US / PET</text>
+
+      <rect x="290" y="0" width="90" height="26" rx="6" fill="#1e293b"/>
+      <text x="299" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#38ef7d">DICOMweb</text>
+
+      <rect x="390" y="0" width="90" height="26" rx="6" fill="#1e293b"/>
+      <text x="402" y="17" font-family="sans-serif" font-size="11" font-weight="700" fill="#c084fc">CLOUD AI</text>
+    </g>
+  </g>
+
+  <!-- Right Visual: Futuristic DICOM HUD / Crosshair Reticle -->
+  <g transform="translate(1000, 200)">
+    <!-- Ambient Glow Circle -->
+    <circle cx="0" cy="0" r="110" fill="#00f2fe" opacity="0.06" class="glowing-orb" filter="url(#glow)"/>
+    
+    <!-- Reticle Outer Rings -->
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#00f2fe" stroke-width="1.5" stroke-dasharray="10, 8" opacity="0.7"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.4"/>
+    <circle cx="0" cy="0" r="35" fill="none" stroke="#38ef7d" stroke-width="1.5" class="pulsing-circle"/>
+
+    <!-- Reticle Crosshairs -->
+    <line x1="-95" y1="0" x2="-20" y2="0" stroke="#00f2fe" stroke-width="2" opacity="0.8"/>
+    <line x1="20" y1="0" x2="95" y2="0" stroke="#00f2fe" stroke-width="2" opacity="0.8"/>
+    <line x1="0" y1="-95" x2="0" y2="-20" stroke="#00f2fe" stroke-width="2" opacity="0.8"/>
+    <line x1="0" y1="20" x2="0" y2="95" stroke="#00f2fe" stroke-width="2" opacity="0.8"/>
+    
+    <!-- Central Core -->
+    <circle cx="0" cy="0" r="8" fill="#00f2fe" filter="url(#glow)"/>
+
+    <!-- Medical ECG Waveform Line overlay -->
+    <path class="wave-path" d="M -80,25 L -50,25 L -35,5 L -20,45 L -5,-15 L 10,35 L 25,25 L 80,25" fill="none" stroke="#38ef7d" stroke-width="2.5" opacity="0.85" filter="url(#glow)"/>
+  </g>
+</svg>
